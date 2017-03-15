@@ -4963,7 +4963,7 @@ a.badge:focus {
   align-items: center;
   background-image: url("../officebg.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
@@ -4976,7 +4976,7 @@ a.badge:focus {
 .jumbtron .h2{
 	color: inherit;
 	font-size: 50px;
-	text-shadow: 1px 1px 3px white;
+	text-shadow: 1px 1px 3px black;
 }
 .jumbotron p {
   margin-bottom: 15px;
