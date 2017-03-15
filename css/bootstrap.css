@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: Agency FB;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -60,8 +60,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
-  font-size: 2em;
+  margin: .100em 0;
+  font-size: 500em;
 }
 mark {
   color: #000;
@@ -1082,8 +1082,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Agency FB", Helvetica, Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1264,7 +1264,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 135px;
 }
 h2,
 .h2 {
@@ -4963,7 +4963,7 @@ a.badge:focus {
   background-color: #eee;
   display: flex;
   align-items: center;
-  background-image: url("/woodbackground.jpg");
+  background-image: url("../bluebackground.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -4972,6 +4972,12 @@ a.badge:focus {
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+	font-size: 135px;
+}
+.jumbotron h2,
+.jumbtron .h2{
+	color: inherit;
+		font-size: 50px;
 }
 .jumbotron p {
   margin-bottom: 15px;
