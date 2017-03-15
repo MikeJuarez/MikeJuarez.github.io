@@ -4956,15 +4956,14 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
   display: flex;
   align-items: center;
-  background-image: url("../bluebackground.jpg");
+  background-image: url("../OfficeBackground(Blue).png");
   background-size: cover;
+  background-position: center;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
@@ -4972,12 +4971,12 @@ a.badge:focus {
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
-	font-size: 135px;
 }
 .jumbotron h2,
 .jumbtron .h2{
 	color: inherit;
-		font-size: 50px;
+	font-size: 50px;
+	text-shadow: 1px 1px 3px white;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -5008,8 +5007,16 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 125px;
+	text-shadow: 2px 2px 8px black;
   }
+	
+  .jumbtron h2,
+	.jumbotron .h2 {
+		font-size: 125px;
+		text-shadow: 1px 1px 8px black;
+	}	
+	
 }
 .thumbnail {
   display: block;
