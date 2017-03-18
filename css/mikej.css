@@ -6,6 +6,9 @@ p {
 	margin: 0cm 3cm 0cm 3cm;
 }
 
-.bodyPara {
-	margin-left
+.grayBG2 {
+	display: flex;
+	background-color: gray;
+	height: 100px;
+	align-items: center;
 }
