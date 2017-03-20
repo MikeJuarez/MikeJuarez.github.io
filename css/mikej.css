@@ -12,3 +12,48 @@ p {
 	height: 100px;
 	align-items: center;
 }
+
+.pageBGAndroid {
+	display: flex;
+	background-image: url("../Images/BG-Android.png");
+	background-size: cover;
+	background-position: right;
+	height: 300px;
+	align-items:center;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+
+.pageBGJava {
+	display: flex;
+	background-image: url("../Images/BG-Java.jpg");	
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	
+	align-items:center;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+}
+
+.pageBGApple {
+	display: flex;
+	background-image: url("../Images/BG-Apple.jpg");	
+	background-position: center;
+	background-size: cover;
+	height: 325px;
+	
+	align-items:center;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+}
+
+.gitsection {
+	font-size: 14px;
+}

@@ -4960,7 +4960,7 @@ a.badge:focus {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  background-image: url("../officebg.jpeg");
+  background-image: url("../Images/officebg.jpeg");
   background-size: cover;
   background-position: bottom;
   color: #ffffff;
