@@ -9,8 +9,12 @@ p {
 .grayBG2 {
 	display: flex;
 	background-color: gray;
-	height: 100px;
+	background-size: cover;
 	align-items: center;
+	height: 100px;
+	padding-bottom: 0px;
+	text-align: center;
+	align-content: center;	
 }
 
 .pageBGAndroid {
@@ -23,7 +27,6 @@ p {
 	color: white;
 	text-shadow: 2px 2px 8px black;
 	text-align: center;
-	align-items: center;
 	align-content: center;
 	align-self: center;
 }
@@ -33,8 +36,7 @@ p {
 	background-image: url("../Images/BG-Java.jpg");	
 	background-position: center;
 	background-size: cover;
-	height: 300px;
-	
+	height: 300px;	
 	align-items:center;
 	color: white;
 	text-shadow: 2px 2px 8px black;
@@ -56,4 +58,9 @@ p {
 
 .gitsection {
 	font-size: 14px;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
 }
