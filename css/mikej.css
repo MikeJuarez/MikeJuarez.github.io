@@ -56,6 +56,19 @@ p {
 	text-align: center;
 }
 
+.pageBGAspnet {
+	display: flex;
+	background-image: url("../Images/BG-Aspnetbg.jpg");	
+	background-position: bottom;
+	background-size: cover;
+	height: 325px;
+	
+	align-items:center;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center; 
+}
+
 .gitsection {
 	font-size: 14px;
 }

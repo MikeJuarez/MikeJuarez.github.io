@@ -1,0 +1,18 @@
+﻿body {
+
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap
+}
+
+.err { 
+    color: red;
+}
+
+.tb_with_border {
+ border: 1px red solid;
+}
