@@ -18,6 +18,7 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/mikej.css" rel="stylesheet" type="text/css">
+<link href="css/simple-sidebar.css" rel="stylesheet">
 
 </head>
 <body>
@@ -47,24 +48,58 @@
   </div>
 </nav>
 
-<section class="jumbotron">
+<div class="jumbotron">
 	<div class="container">
      <div class="row text-center">
       <h1>Michael Juarez</h1>
       <h2>Project Website</h2>
 	</div>
   	</div>
-</section>
+</div>
 
-<div class="container">
-	<div class="row text-center"></div>
-	<div class="col-md-12 text-justify">		
+
+<div id="wrapper">
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+</div>
+
+<div class="container-fluid">	
+	<div class="row">
+		<div class="col-md-12">
 		Hi there!  Welcome to my website which contains a portfolio of applications that I've designed.  I am a junior 
 		software developer graduating from Florida International University in April of 2017 with a 
 		Bachelor of Science in Information Technology. I am an experienced and accomplished
 		sales associate with over ten years experience at AT&T.  While working, I developed a passion for coding and decided to further my education with a focus on software development.  To help transition my new-found passion into a career, I am seeking internship or an entry-level
 		position in a software development role that will effectively maximize my experience from working in a 
 		fast-paced sales environment.  If you are looking for a self-motivated, hard-working associate developer in Java, C#, iOS, Android, HTML 5, CSS and more, please reach out to me at your best convienance!		
+		</div>		
 	</div>
 </div>
 <hr/>
@@ -97,7 +132,7 @@
   <hr>
 
 </div>
-
+</div>
 <section class="grayBG2">   
   <div class="container">
   <div class="text-center col-md-6 col-md-offset-3">
@@ -114,4 +149,9 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
 
-
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
