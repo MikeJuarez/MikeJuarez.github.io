@@ -81,11 +81,13 @@ p {
 	overflow-x: hidden;
 	background-color:gray;
 	color:whitesmoke;
-	height: 645px;
+	height: 800px;
 	padding-left: 10px;
 	padding-right: 10px;
 		
 }
+
+
 
 .blackBG {	
 	height: 500px;
@@ -108,4 +110,9 @@ p {
 .addPaddingUpDown5px {
 	padding-top: 5px;
 	padding-bottom:5px;
+}
+
+.removeMarginsLeftRight15px {
+	margin-right: -15px;
+	margin-left: -15px;
 }
