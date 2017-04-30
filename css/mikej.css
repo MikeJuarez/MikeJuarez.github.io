@@ -113,42 +113,66 @@ p {
 	
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-device-width: 480px) {
     .h1mike {
-        font-size: 95px;
+        font-size: 40px;
 		color: purple;
 		text-shadow: 2px 2px 8px black;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-device-width: 768px) {
     .h1mike {
-        font-size: 129px;
+        font-size: 80px;
 		color: blue;
 		text-shadow: 2px 2px 8px black;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-device-width: 992px) {
     .h1mike {
-        font-size: 166px;
-		
+        font-size: 100px;		
 		color: orange;
 		text-shadow: 2px 2px 8px black;}
 }
 
-@media screen and (max-width: 1199px) {
+
+@media screen and (min-device-width: 1200px) {
     .h1mike {
-        font-size: 175px;
+        font-size: 200px;
 		text-shadow: 2px 2px 8px black;
-		color: red;
+		color:pink;
     }
 }
+
+@media screen and (min-width: 480px) {
+    .h1mike {
+        font-size: 40px;
+		color: purple;
+		text-shadow: 2px 2px 8px black;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .h1mike {
+        font-size: 80px;
+		color: blue;
+		text-shadow: 2px 2px 8px black;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .h1mike {
+        font-size: 100px;		
+		color: orange;
+		text-shadow: 2px 2px 8px black;}
+}
+
 
 @media screen and (min-width: 1200px) {
     .h1mike {
         font-size: 200px;
 		text-shadow: 2px 2px 8px black;
-		color:pink;
+		color: pink;
     }
 }
