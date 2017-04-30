@@ -115,14 +115,14 @@ p {
 
 @media screen and (min-width: 480px) {
     .h1mike {
-        font-size: 7em;
+        font-size: 3em;
 		text-shadow: 2px 2px 8px black;
     }
 }
 
 @media screen and (min-width: 768px) {
     .h1mike {
-        font-size: 8em;
+        font-size: 4em;
 		text-shadow: 2px 2px 8px black;
     }
 }
