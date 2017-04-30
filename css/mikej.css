@@ -67,7 +67,7 @@ p {
 }
 
 .gitsection {
-	font-size: 14px;
+	font-size: 1vw;
 }
 
 .fill { 
@@ -143,11 +143,25 @@ p {
     }
 }
 
-.h1mike2{
-	font-size: 15vw;
-		text-shadow: 2px 2px 8px black;
+.h1vw {
+		font-size: 13vw;
+		text-shadow: 0px 5px 1px black;
+		padding: 0%;		
 }
 
+.h2vw {
+		font-size: 7vw;
+		text-shadow: 0px 8px 5px black;	
+}
+
+.text {
+		font-size: 1.4vw;
+}
+
+.textblog {
+		font-size: 1.4vw;
+		text-align: justify;
+}
 
 
 
