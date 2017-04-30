@@ -115,26 +115,26 @@ p {
 
 @media screen and (min-width: 480px) {
     .h1mike {
-        font-size: 3em;
+        font-size: 95px;
 		text-shadow: 2px 2px 8px black;
     }
 }
 
 @media screen and (min-width: 768px) {
     .h1mike {
-        font-size: 4em;
+        font-size: 129px;
 		text-shadow: 2px 2px 8px black;
     }
 }
 
 @media screen and (min-width: 992px) {
     .h1mike {
-        font-size: 8em;
+        font-size: 166px;
 		text-shadow: 2px 2px 8px black;}
 }
 	@media screen and (min-width: 1200px) {
     .h1mike {
-        font-size: 10em;
+        font-size: 200px;
 		text-shadow: 2px 2px 8px black;
     }
 }
