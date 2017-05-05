@@ -88,10 +88,10 @@ p {
     overflow-y: scroll;
 	overflow-x: hidden;
 	background-color:gray;
-	color:whitesmoke;
-	padding-left: 10px;
-	padding-right: 10px;	
+	color:whitesmoke;	
 	text-align: justify;
+	border-width: thick;
+	border-color: aqua;
 }
 
 
@@ -129,12 +129,12 @@ p {
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
-		font-size: 20px;
+		font-size: 12px;
 		width: 100%;
 	}
 	
 	.addPaddingUpDown5px img {
-		width: 100%;
+		width: 75%;	
 		padding: 0px 25px 0px 25px;
 	}
 	
@@ -142,12 +142,14 @@ p {
 		font-size: 20px;
 		text-align: justify;
 		color: white;
-		height: 400px;
+		height: 300px;
+		padding: 0px 25px 0px 25px;
+		
 	}
 	
 	.textintroduction {	
 		padding: 0px 25px 0px 25px;
-		font-size: 20px;
+		font-size: 16px;
 		text-align: justify;
 	
 	}
@@ -168,7 +170,7 @@ p {
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
-	    font-size: 20px;
+	    font-size: 14px;
 		width: 100%;
 	}
 	
@@ -179,8 +181,10 @@ p {
 	
 	.col-scollable-y {
 		font-size: 18px;	
-		height: 800px;
+		height: 900px;
 		text-align:left;
+		padding-left: 5px;
+		padding-right: 5px;	
 	
 	}
 	
@@ -205,7 +209,7 @@ p {
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
-	    font-size: 20px;
+	    font-size: 16px;
 		width: 100%;
 	}
 	
@@ -217,7 +221,9 @@ p {
 	.col-scollable-y{
 		font-size: 16px;
 		text-align: left;
-		height: 800px;
+		height: 900px;
+		padding-left: 5px;
+		padding-right: 5px;	
 	}
 	
 	.textintroduction {
@@ -241,7 +247,7 @@ p {
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
-	    font-size: 20px;
+	    font-size: 16px;
 		width: 100%;
 	}
 	
@@ -253,6 +259,8 @@ p {
 	.col-scollable-y {
 		font-size: 20px;
 		height: 700px;
+		padding-left: 5px;
+		padding-right: 5px;	
 	}
 	
 	.textintroduction {
