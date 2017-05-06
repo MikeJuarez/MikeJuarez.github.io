@@ -11,27 +11,34 @@
 
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">     
-    <div class="navbar-header">
-      <a href="http://cis.fiu.edu"><img src="fiulogo.jpg" class="img-thumbnail"/></a></div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="defaultNavbar1">
+<nav class="navbar navbar-default navbar-fixed-top">  
+   <div class="container-fluid">     
+    <div class="navbar-header">     
+      <a href="http://cis.fiu.edu"><img src="Images/fiulogo.jpg" class="img-thumbnail"/></a>
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+      	<span class="icon-bar"></span>
+      	<span class="icon-bar"></span>
+      	<span class="icon-bar"></span>
+      </button>
+    </div>    
+    <!-- Collect the nav links, forms, and other content for toggling -->    
+     <div class="collapse navbar-collapse" id="mydropdown">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(home)</span></a></li>
-<li class="dropdown"><a href="https://mikejuarez.github.io/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span><span class="caret"></span></a>
+        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(home)</span></a></li>    
+        <li class="dropdown"><a href="https://mikejuarez.github.io/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span><span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="iOS Projects.html">iOS Projects</a></li>
             <li><a href="Android Projects.html">Android Projects</a></li>
             <li><a href="Java Projects.html">Java Projects</a></li>
             <li><a href="ASPNET Projects.html">ASP .NET Projects</a></li>
           </ul>
-        </li>
-      </ul>
-      <div class="navbar-form navbar-right">
+      </li>
+    </ul>
+    
+    <div class="navbar-form navbar-right">
         <a href="#">Contact Me</a>
-      </div>
-    </div>
+    </div>      
+   </div>   
   </div>
 </nav>
 
