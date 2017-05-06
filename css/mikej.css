@@ -74,10 +74,6 @@ p {
 	text-align: center; 
 }
 
-.gitsection {
-	font-size: 1vw;
-}
-
 .fill { 
     min-height: 100%;
     height: 100%;
@@ -135,7 +131,7 @@ p {
 	}
 	
 	.AndroidGreen {
-		font-size: 75px;
+		font-size: 50px;
 		text-shadow: 5px 5px 10px #A4C639;
 		text-align: center;
 	}
@@ -145,6 +141,10 @@ p {
 		padding-bottom:5px;	
 		font-size: 16px;
 		width: 100%;
+	}
+	
+	.gitsection {
+		font-size: 16px;
 	}
 	
 	.addPaddingUpDown5px img {
@@ -194,6 +194,11 @@ p {
 		text-shadow: 5px 5px 10px #A4C639;
 		text-align: center;
 	}	
+	
+	.gitsection {
+		font-size: 16px;
+	}
+	
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
@@ -245,6 +250,10 @@ p {
 		text-shadow: 5px 5px 10px orange;
 		text-align: center;
 		outline-color: orange;	
+	}
+	
+	.gitsection {
+		font-size: 16px;
 	}
 	
 	.addPaddingUpDown5px {
@@ -299,6 +308,10 @@ p {
 		outline-color: orange;	
 	}
 	
+	.gitsection {
+		font-size: 18px;
+	}
+	
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
@@ -339,6 +352,13 @@ p {
     height: auto;
 	box-shadow: 0px 0px 10px 5px lightblue;
 }
+
+.dropshadowclass {
+        border: solid 1px #CCC;
+    -moz-box-shadow: 5px 5px 0px #999;
+    -webkit-box-shadow: 5px 5px 0px #999;
+        box-shadow: 5px 5px 0px #999;
+        }
 
 
 
