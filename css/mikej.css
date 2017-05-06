@@ -9,16 +9,12 @@ html, body
     overflow-x: hidden; 
 }
 
-p {
-	text-align: justify;
-	margin: 0cm 3cm 0cm 3cm;
-}
-
 .grayBG2 {	
 	padding:35px;
+	color: #FFFCEC;
 	text-align:center;
-	background-color: gray;	
-	background-size:cover;
+	background-color: #333333;	
+	background-size: cover;
 	height: 100px;	
 	padding-bottom: 0px;	
 	
@@ -80,14 +76,22 @@ p {
 }
 
 .col-scollable-y {
+	
+	background: -webkit-linear-gradient(#ABDCD6, #FFFCEC);
+	background: -o-linear-gradient(#ABDCD6, #FFFCEC);
+	background: linear-gradient(#ABDCD6, #FFFCEC);
+	border-radius: 5px;
     position: relative;
     overflow-y: scroll;
-	overflow-x: hidden;
-	background-color:gray;
-	color:whitesmoke;	
-	text-align: justify;
-	border-width: thick;
-	border-color: aqua;
+	overflow-x: hidden;	
+	color: #333333;	
+	text-align: justify;	
+}
+
+.BGblogsection {
+	background: -webkit-linear-gradient(#ABDCD6, #FFFCEC);
+	background: -o-linear-gradient(#ABDCD6, #FFFCEC);
+	background: linear-gradient(#ABDCD6, #FFFCEC);
 }
 
 
@@ -107,6 +111,15 @@ p {
 	text-align: center;	
 }
 
+.textblog {
+	background-color: #ABDCD6;
+}
+
+.h3mike {
+		color: white;
+		font-size: 35px;
+		text-shadow: 2px 2px 2px black;
+	}
 
 
 
@@ -155,13 +168,13 @@ p {
 	.col-scollable-y {
 		font-size: 20px;
 		text-align: justify;
-		color: white;
+		color: #333333;
 		height: 300px;
 		padding: 0px 25px 0px 25px;
 		
 	}
 	
-	.textintroduction {	
+	.textintroduction {
 		padding: 0px 25px 0px 25px;
 		font-size: 16px;
 		text-align: justify;
@@ -212,15 +225,16 @@ p {
 	}
 	
 	.col-scollable-y {
+		color: #333333;
 		font-size: 18px;	
 		height: 900px;
-		text-align:left;
+		text-align: left;
 		padding-left: 5px;
 		padding-right: 5px;	
 	
 	}
 	
-	.textintroduction {
+	.textintroduction {	
 		padding: 0px 25px 0px 25px;
 		font-size: 20px;
 		text-align: justify;		
@@ -269,6 +283,7 @@ p {
 	}
 	
 	.col-scollable-y{
+		color: #333333;
 		font-size: 16px;
 		text-align: left;
 		height: 900px;
@@ -325,8 +340,9 @@ p {
 	}
 	
 	.col-scollable-y {
+		color: #333333;
 		font-size: 20px;
-		height: 700px;
+		height: 800px;
 		padding-left: 5px;
 		padding-right: 5px;	
 	}
@@ -352,14 +368,6 @@ p {
     height: auto;
 	box-shadow: 0px 0px 10px 5px lightblue;
 }
-
-.dropshadowclass {
-        border: solid 1px #CCC;
-    -moz-box-shadow: 5px 5px 0px #999;
-    -webkit-box-shadow: 5px 5px 0px #999;
-        box-shadow: 5px 5px 0px #999;
-        }
-
 
 
 
