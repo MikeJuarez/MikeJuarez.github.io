@@ -75,12 +75,10 @@ html, body
     height: 100%;
 }
 
-.col-scollable-y {
-	
+.col-scollable-y {	
 	background: -webkit-linear-gradient(#ABDCD6, #FFFCEC);
 	background: -o-linear-gradient(#ABDCD6, #FFFCEC);
 	background: linear-gradient(#ABDCD6, #FFFCEC);
-	border-radius: 5px;
     position: relative;
     overflow-y: scroll;
 	overflow-x: hidden;	
@@ -111,7 +109,8 @@ html, body
 	text-align: center;	
 }
 
-.textblog {
+.textblog {	
+	border-radius: 10px 10px 0px 0px;
 	background-color: #ABDCD6;
 }
 
@@ -122,10 +121,8 @@ html, body
 	}
 
 
-
-
 @media screen and (min-width: 0px) and (max-width: 767px){
-    .h1mike {
+    .h1mike {           
         font-size: 75px;		
 		text-shadow: 5px 3px 8px black;
     }
@@ -284,7 +281,7 @@ html, body
 	
 	.col-scollable-y{
 		color: #333333;
-		font-size: 16px;
+		font-size: 18px;
 		text-align: left;
 		height: 900px;
 		padding-left: 5px;
@@ -330,7 +327,7 @@ html, body
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
-	    font-size: 16px;
+	    font-size: 20px;
 		width: 100%;
 	}
 	
