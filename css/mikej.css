@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+
+@font-face {
+	font-family: 'Agency FB';
+	src: url('/fonts/AGENCYR.TTF');
+}
+
 html, body
 {
 	width: 100%;
@@ -83,7 +89,7 @@ html, body
     overflow-y: scroll;
 	overflow-x: hidden;	
 	color: #333333;	
-	font-family: Agency FB;
+	font-family: 'Agency FB';
 	
 }
 
@@ -105,11 +111,11 @@ html, body
 .textblog {	
 	border-radius: 10px 10px 0px 0px;
 	background-color: #ABDCD6;
-	font-family: Agency FB;
+	font-family: 'Agency FB';
 }
 
 .h1mike, .h2mike {
-	font-family: Agency FB;
+	font-family: 'Agency FB';
 }
 .h3mike {
 		color: white;
@@ -118,7 +124,7 @@ html, body
 	}
 
 .textintroudction {
-	font-family: Agency FB;
+	font-family: 'Agency FB';
 }
 
 
