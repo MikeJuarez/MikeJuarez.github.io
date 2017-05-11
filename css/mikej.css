@@ -399,6 +399,16 @@ html, body
 	box-shadow: 0px 0px 10px 5px lightblue;
 }
 
+.roundcornersJavaOrange {
+	border-radius: 25px;
+    background: #e07000;
+    padding: 20px; 
+    width: auto;
+    height: auto;
+	box-shadow: 0px 0px 10px 5px #f5cc00;
+	color: white;
+}
+
 
 
 
