@@ -20,10 +20,8 @@ html, body
 	color: #FFFCEC;
 	text-align:center;
 	background-color: #333333;	
-	background-size: cover;
-	height: 100px;	
-	padding-bottom: 0px;	
-	
+	background-size: cover;	
+	padding-bottom: 0px;		
 }
 
 .pageBGAndroid {
@@ -169,6 +167,11 @@ html, body
 		padding: 0px 25px 0px 25px;
 	}
 	
+	.grayBG2 img {
+		width: 20%;
+		height: 20%;
+	}
+	
 	.col-scollable-y {
 		font-size: 20px;
 		text-align: justify;
@@ -182,6 +185,11 @@ html, body
 		padding: 0px 25px 0px 25px;
 		font-size: 16px;
 		text-align: justify;	
+	}
+	
+	.grayBG2 img {
+		max-width: 125px;
+		max-height: 125px;		
 	}
 }
 
@@ -242,6 +250,11 @@ html, body
 		font-size: 20px;
 		text-align: justify;		
 	}
+	
+	.grayBG2 img {
+		max-width: 150px;
+		max-height: 150px;		
+	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
@@ -299,6 +312,11 @@ html, body
 		font-size: 20px;
 		text-align: justify;		
 	}
+	
+	.grayBG2 img {
+		max-width: 175px;
+		max-height: 175px;		
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -354,6 +372,11 @@ html, body
 		padding: 0px 25px 0px 25px;
 		font-size: 20px;
 		text-align: justify;		
+	}
+	
+	.grayBG2 img {
+		max-width: 200px;
+		max-height: 200px;		
 	}
 }
 
