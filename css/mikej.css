@@ -24,6 +24,10 @@ html, body
 	padding-bottom: 0px;		
 }
 
+.grayBG2 img {	
+	border-radius: 5px 5px 5px lightblue;
+}
+
 .pageBGAndroid {
 	display: flex;
 	background-image: url("../Images/BG-Android.png");
