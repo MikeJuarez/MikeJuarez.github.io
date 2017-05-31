@@ -141,6 +141,10 @@ html, body
 		text-shadow: 3px 5px 2px black;
     }
 	
+	.googleplay img{
+		width: 300px;
+	}
+	
 	.blackh1 {
 		font-size: 75px;
 		color: black;
@@ -160,6 +164,7 @@ html, body
 		padding-bottom:5px;	
 		font-size: 16px;
 		width: 100%;
+		align-content: center;
 	}
 	
 	.gitsection {
@@ -204,6 +209,10 @@ html, body
 		text-shadow: 5px 3px 8px black;
     }
 	
+	.googleplay img{
+		width: 400px;
+	}
+	
 	.h2mike {
         font-size: 75px;	
 		text-shadow: 3px 5px 2px black;
@@ -242,7 +251,7 @@ html, body
 	.col-scollable-y {
 		color: #333333;
 		font-size: 18px;	
-		height: 900px;
+		height: 1100px;
 		text-align: left;
 		padding-left: 5px;
 		padding-right: 5px;	
@@ -293,7 +302,8 @@ html, body
 	.addPaddingUpDown5px {
 		padding-top: 5px;
 		padding-bottom:5px;	
-	    font-size: 16px;
+	    font-size: 16px;		
+		text-align: right;
 		width: 100%;
 	}
 	
@@ -306,7 +316,7 @@ html, body
 		color: #333333;
 		font-size: 18px;
 		text-align: left;
-		height: 900px;
+		height: 1200px;
 		padding-left: 5px;
 		padding-right: 5px;	
 	}
@@ -367,7 +377,7 @@ html, body
 	.col-scollable-y {
 		color: #333333;
 		font-size: 20px;
-		height: 800px;
+		height: 1200px;
 		padding-left: 5px;
 		padding-right: 5px;	
 	}
