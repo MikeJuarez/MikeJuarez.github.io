@@ -15,6 +15,10 @@ html, body
     overflow-x: hidden; 	
 }
 
+.col-scrollable-y {
+	
+}
+
 .grayBG2 {	
 	padding:35px;
 	color: #FFFCEC;
@@ -83,17 +87,7 @@ html, body
     height: 100%;
 }
 
-.col-scollable-y {	
-	background: -webkit-linear-gradient(#ABDCD6, #FFFCEC);
-	background: -o-linear-gradient(#ABDCD6, #FFFCEC);
-	background: linear-gradient(#ABDCD6, #FFFCEC);
-    position: relative;
-    overflow-y: scroll;
-	overflow-x: hidden;	
-	color: #333333;	
-	font-family: 'Agency FB';
-	
-}
+
 
 .blackBG {	
 	height: 500px;
@@ -186,8 +180,7 @@ html, body
 		text-align: justify;
 		color: #333333;
 		height: 300px;
-		padding: 0px 25px 0px 25px;
-		
+		padding: 0px 25px 0px 25px;		
 	}
 	
 	.textintroduction {
@@ -251,7 +244,7 @@ html, body
 	.col-scollable-y {
 		color: #333333;
 		font-size: 18px;	
-		height: 1100px;
+		height: 650px;
 		text-align: left;
 		padding-left: 5px;
 		padding-right: 5px;	
@@ -316,7 +309,7 @@ html, body
 		color: #333333;
 		font-size: 18px;
 		text-align: left;
-		height: 1200px;
+		height: 650px;
 		padding-left: 5px;
 		padding-right: 5px;	
 	}
@@ -377,7 +370,7 @@ html, body
 	.col-scollable-y {
 		color: #333333;
 		font-size: 20px;
-		height: 1200px;
+		height: 650px;
 		padding-left: 5px;
 		padding-right: 5px;	
 	}
@@ -417,6 +410,15 @@ html, body
     height: auto;
 	box-shadow: 0px 0px 10px 5px #f5cc00;
 	color: white;
+}
+
+.col-scollable-y {		
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: -webkit-linear-gradient(#ABDCD6, #FFFCEC);
+	overflow-x: hidden;	
+	color: #333333;	
+	font-family: 'Agency FB';	
 }
 
 
