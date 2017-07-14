@@ -13,6 +13,7 @@ html, body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 	
+	background-color: #88BDBC
 }
 
 .col-scrollable-y {
@@ -23,7 +24,7 @@ html, body
 	padding:35px;
 	color: #FFFCEC;
 	text-align:center;
-	background-color: #333333;	
+	background-color: #4F4A41;	
 	background-size: cover;	
 	padding-bottom: 0px;		
 }
@@ -99,8 +100,8 @@ html, body
 }
 
 .AndroidGreen {
-	color: Black;
-	text-shadow: 5px 5px 10px #A4C639;
+	color: #A4C639;
+	text-shadow: 5px 5px 10px black;
 	text-align: center;	
 }
 
@@ -119,19 +120,14 @@ html, body
 		text-shadow: 2px 2px 2px black;
 	}
 
-.textintroudction {
-	font-family: 'Agency FB';
-}
-
-
 @media screen and (min-width: 0px) and (max-width: 767px){
     .h1mike {           
-        font-size: 75px;		
+        font-size: 85px;		
 		text-shadow: 5px 3px 8px black;
     }
 	
 	.h2mike {
-        font-size: 40px;
+        font-size: 50px;
 		text-shadow: 3px 5px 2px black;
     }
 	
@@ -148,8 +144,7 @@ html, body
 	}
 	
 	.AndroidGreen {
-		font-size: 50px;
-		text-shadow: 5px 5px 10px #A4C639;
+		font-size: 100px;
 		text-align: center;
 	}
 	
@@ -185,7 +180,7 @@ html, body
 	
 	.textintroduction {
 		padding: 0px 25px 0px 25px;
-		font-size: 16px;
+		font-size: 20px;
 		text-align: justify;	
 	}
 	
@@ -221,7 +216,6 @@ html, body
 
 	.AndroidGreen {
 		font-size: 100px;
-		text-shadow: 5px 5px 10px #A4C639;
 		text-align: center;
 	}	
 	
@@ -276,7 +270,6 @@ html, body
 	
 	.AndroidGreen {
 		font-size: 125px;
-		text-shadow: 5px 5px 10px #A4C639;
 		text-align: center;
 	}
 	
@@ -339,7 +332,6 @@ html, body
 	
 	.AndroidGreen {
 		font-size: 150px;
-		text-shadow: 5px 5px 10px #A4C639;
 		text-align: center;
 	}
 	
@@ -378,7 +370,7 @@ html, body
 	.textintroduction {
 		padding: 0px 25px 0px 25px;
 		font-size: 20px;
-		text-align: justify;		
+		text-align: justify;
 	}
 	
 	.grayBG2 img {
@@ -386,7 +378,6 @@ html, body
 		max-height: 200px;		
 	}
 }
-
 .center {	
     margin: 0 auto;
     width: 100%;
@@ -421,7 +412,42 @@ html, body
 	font-family: 'Agency FB';	
 }
 
+.card {
+    /* Add shadows to create the "card" effect */
+	padding-top: 15px;
+	padding-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,5);
+    transition: 0.3s;
+	background-color: #A4CDCC;
+	margin-bottom: 30px;
+}
+.cardWhiteBG {
+    /* Add shadows to create the "card" effect */
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,5);
+    transition: 0.3s;
+	background-color: whitesmoke;
+	margin-bottom: 30px;
+}
 
+/* On mouse-over, add a deeper shadow */
+.card:hover, .cardWhiteBG:hover {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}
 
-
+.backdropAndroid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  background-image: url("../Images/BG-Android.png");
+  background-size: cover;
+  background-position:center;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
 
