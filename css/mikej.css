@@ -440,12 +440,12 @@ html, body
 .backdropAndroid {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 30px;
   display: flex;
   align-items: center;
   background-image: url("../Images/BG-Android.png");
-  background-size: cover;
-  background-position:center;
+  background-size:cover;
+	background-position: top;
+  
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
