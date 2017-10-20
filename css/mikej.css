@@ -423,6 +423,7 @@ html, body
 }
 .cardWhiteBG {
     /* Add shadows to create the "card" effect */
+	margin-top: 24px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-radius: 15px;
