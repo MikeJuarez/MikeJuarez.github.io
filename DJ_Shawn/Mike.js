@@ -4,10 +4,10 @@ $(function() {
     $('.box').matchHeight();
 });
 
-function fadeShawnIn() {
+/*function fadeShawnIn() {
 	"use strict";
 	$('#djshawnimg').fadeIn(4000);
 }
 
 
-$(document).ready(fadeShawnIn);
+$(document).ready(fadeShawnIn);*/
