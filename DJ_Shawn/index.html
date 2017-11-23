@@ -1,18 +1,39 @@
 <!doctype html>
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<link rel = "stylesheet" type = "text/css" href = "style.css"/>
 <meta charset="utf-8">
 <title>index.html</title>
 </head>
 
 <body>
-<div class="container-fluid" style="padding: 0px;"> <img src="images/shawn_jumbotron.png" class="bg"> </div>
+<nav class="navbar navbar-dark" style="background-color: black" >
+  <a class="navbar-brand" href="#" style="color: white;">DJ Shawn's Official Website</a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div class="collapse navbar-collapse" id="navbarS">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid" style="padding: 0px;"> <img src="images/shawn_jumbotron.png" class="bg" id="djshawnimg" style="display: none"> </div>
 <div class="container-fluid bgheadphones">
   <div class="row">
     <div class="col-sm-12 col-md-8 col-lg-7 align-self-center headphonearea">
-      <div class="aboutheader">
+      <div class="aboutheader" id="aboutHeader">
         <center>
-          About DJ Shawn
+          <div data-aos="fade-right">About DJ Shawn</div>
         </center>
       </div>
       "  With over <b>20 years of experience</b>, DJ, Entrepreneur, Promoter, Businessman and Music Enthusiast DJ Shawn hails out of Miami, FL, with over 100,000 songs in all musical genres, ready to rock the party.  On most nights, you'll find DJ Shawn as the premiere DJ of <a href="http://www.showgirlsinc.net">Show Girls Night Club</a>. <br>
@@ -20,7 +41,7 @@
       Having spent many years playing at all of the major local night clubs (alongside local hard-hitters and national acts alike), holding multiple residencies, DJing special events and promoting his own shows, DJ Shawn has had a lot of time to develop his sound. <br>
       <br>
       For him, it’s all about mood and a deep, hypnotic groove… playing those tracks that get you tapping your feet and nodding your head without you realizing it, regardless of genre, tempo, style, or release date.  Don’t be surprised when you suddenly find yourself dancing. " </div>
-    <div class="col-sm-12 col-md-4 col-lg-5 headphoneimage align-self-center"> <img src="images/headphones.png" class="bg"> </div>
+    <div class="col-sm-12 col-md-4 col-lg-5 headphoneimage align-self-center"> <img src="images/headphones.png" class="bg" data-aos="fade-left"> </div>
   </div>
 </div>
 <div class="container-fluid eventscontainer">
@@ -29,31 +50,39 @@
     <div class="row">
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="box">
-          <div class="cardWhiteBG btext-center"> <img src="./images/wedding.jpg" width="100%" height="175px%"> Weddings </div>
+          <div class="cardWhiteBG text-center"> <img src="./images/wedding.jpg" width="100%" height="150px"> Weddings </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="box">
-          <div class="cardWhiteBG text-center"> <img src="./images/birthday.jpg" width="100%" height="175px"> Birthday Parties </div>
+          <div class="cardWhiteBG text-center"> <img src="./images/birthday.jpg" width="100%" height="150px"> Birthday Parties </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="box">
-          <div class="cardWhiteBG text-center"> <img src="./images/babyshower.jpg" width="100%" height="175px"> Baby Showers </div>
+          <div class="cardWhiteBG text-center"> <img src="./images/babyshower.jpg" width="100%" height="150px"> Baby Showers </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="box">
-          <div class="cardWhiteBG text-center"> <img src="images/corporate.png" width="100%" height="175px"> Company Events </div>
+          <div class="cardWhiteBG text-center"> <img src="images/corporate.png" width="100%" height="150px"> Company Events </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel = "stylesheet" type = "text/css" href = "style.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script> 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="Mike.js"></script>
+<script>
+	AOS.init({
+ duration: 3000,
+		offset: 200,
+			});</script>
+
 </body>
 </html>
